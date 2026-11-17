@@ -1,0 +1,14 @@
+# build output
+player.gb
+player.map
+player.sym
+*.o
+gb2.gbs
+
+
+# not necessary
+original.*
+tempconv.*
+shell.lnk
+temp
+.cdl

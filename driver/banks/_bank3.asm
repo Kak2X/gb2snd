@@ -1,0 +1,15 @@
+DEF BANK_NUM     EQU $03
+INCLUDE "driver/common.asm"
+INCLUDE "driver/driver.asm"
+; ================ Songs ================
+INCLUDE "driver/sfx/sfx_boss_bar.asm"
+INCLUDE "driver/sfx/sfx_teleport_in.asm"
+INCLUDE "driver/sfx/sfx_teleport_out.asm"
+INCLUDE "driver/sfx/sfx_freeze_toggle.asm"
+INCLUDE "driver/sfx/sfx_weapon_absorb.asm"
+INCLUDE "driver/sfx/sfx_block.asm"
+INCLUDE "driver/sfx/sfx_ufo_crash.asm"
+INCLUDE "driver/sfx/sfx_cursor_move.asm"
+INCLUDE "driver/sfx/sfx_damaged.asm"
+INCLUDE "driver/sfx/sfx_unused2.asm"
+INCLUDE "driver/sfx/sfx_silence.asm"

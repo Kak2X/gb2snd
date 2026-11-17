@@ -1,0 +1,4 @@
+* text=false
+
+*.bin binary
+*.rle binary
